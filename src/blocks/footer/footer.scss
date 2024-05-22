@@ -1,0 +1,25 @@
+.footer {
+    background-color: $black;
+    padding: 52px 27px;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 63px;
+        padding-top: 63px;
+    }
+
+    &__social {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__list {
+        display: grid;
+        grid-row-gap: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #b9b9b9;
+    }
+}

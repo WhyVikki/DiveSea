@@ -1,0 +1,47 @@
+.nav {
+    display: none;
+    text-transform: uppercase;
+
+    &__link {
+        font-weight: 500;
+        font-size: 17px;
+        color: #606060;
+    }
+
+    &__search {
+        width: 348px;
+        height: 57px;
+        border-radius: 14px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 56px;
+        color: #c2c3cb;
+        background: url("../images/search.svg") 16px no-repeat #ededed;
+    }
+
+    &__btn {
+        width: 199px;
+        height: 57px;
+        font-weight: 600;
+        font-size: 16px;
+        color: $blanch;
+        background: $black;
+        border-radius: 16px;
+    }
+
+    @media(min-width: $desktop-width) {
+        display: flex;
+        align-items: center;
+        gap: 117px;
+
+        &__list {
+            display: flex;
+            column-gap: 53px;
+        }
+
+        &__block {
+            display: flex;
+            gap: 30px;
+        }
+    }
+}

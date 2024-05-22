@@ -1,0 +1,30 @@
+.header {
+    margin: 0 auto;
+    width: 317px;
+    height: 76px;
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    position: relative;
+    border-bottom: 1px solid $grey;
+    margin-bottom: 70px;
+
+    @media(min-width: $tablet-width) {
+        max-width: 889px;
+        padding: 32px 66px 0px 66px;
+    }
+    @media(min-width: $desktop-width) {
+        width: 100%;
+        gap: 57px;
+        border-bottom: none;
+        margin-bottom: 113px;
+        padding-top: 48px;
+        padding: 45px 93px 0px 93px;
+
+        &__menu {
+            display: none;
+        }
+    }
+}

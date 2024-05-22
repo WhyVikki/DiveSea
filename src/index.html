@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiveSea</title>
+  </head>
+  <body>
+      <header class="header">
+        <a href="#">
+          <img src="./images/logo.png" alt="DiveSea logo" />
+        </a>
+        <button class="header__menu">
+          <svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.25 1.86621H32.75H1.25Z" fill="#918F8F" />
+            <path d="M1.25 1.86621H32.75" stroke="#282828" stroke-width="2" stroke-linecap="round" />
+            <path d="M1.25 13.0293H32.75H1.25Z" fill="#918F8F" />
+            <path d="M1.25 13.0293H32.75" stroke="#282828" stroke-width="2" stroke-linecap="round" />
+            <path d="M1.25 24.1914H32.75H1.25Z" fill="#918F8F" />
+            <path d="M1.25 24.1914H32.75" stroke="#282828" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button> 
+        <div class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#">discover</a></li>
+            <li><a class="nav__link" href="#">creators</a></li>
+            <li><a class="nav__link" href="#">sell</a></li>
+            <li><a class="nav__link" href="#">stats</a></li>
+          </ul>
+          <div class="nav__block">
+            <input class="nav__search" placeholder="Search Art Work / Creator">
+            <button class="nav__btn">Connect Wallet</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="intro__wrapper">
+          <section class="intro">
+          <small class="intro__creators">OVER 1M CREATORS</small>
+          <h1 class="heading--large intro__title">Discover And <br/> Create NFTs</h1>
+          <p>
+            Discover, Create and Sell NFTs On Our NFT Marketplace <br/> With Over Thousands Of NFTs And
+            Get a <b>$20 bonus.</b>
+          </p>
+          <button class="btn btn--black intro__btn--exp">Explore More</button>
+          <button class="btn btn--white intro__btn--crt">Create NFT</button>
+          <div class="intro__downloads">
+            <img src="./images/intro/star-logo.svg" alt="trustpilot logo" />
+            <img src="./images/intro/stars.svg" alt="stars" />
+            <span>4900+</span>
+          </div>
+          <dl class="intro__table">
+            <div class="">
+              <dt class="heading--average">430K+</dt>
+              <dd class="heading--little">Art Works</dd>
+            </div>
+            <div class="">
+              <dt class="heading--average">159K+</dt>
+              <dd class="heading--little">Creators</dd>
+            </div>
+            <div class="">
+              <dt class="heading--average">87K+</dt>
+              <dd class="heading--little">Collections</dd>
+            </div>
+          </dl>
+        </section>
+          <section class="slider">
+          <img class="slider__img--after" src="./images/slider/slider-nft1.png" alt="nft" />
+          <img class="slider__img--before" src="./images/slider/slider-nft2.png" alt="nft" />
+          <div class="arrow-btn slider__btn">
+            <button class="arrow-btn arrow-btn--back">
+              <svg class="arrow-btn--no-active" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86313 0.485719C8.17451 0.198285 8.65995 0.2177 8.94738 0.529082L11.4263 3.21458C11.6977 3.5085 11.6977 3.96154 11.4263 4.25547L8.94739 6.94103C8.65996 7.25241 8.17452 7.27183 7.86314 6.9844C7.55175 6.69697 7.53233 6.21154 7.81976 5.90015L9.11005 4.50232L1.65499 4.50232C1.23122 4.50232 0.887695 4.15879 0.887695 3.73503C0.887695 3.31126 1.23122 2.96773 1.65499 2.96773L9.11002 2.96773L7.81977 1.56997C7.53233 1.25859 7.55175 0.773152 7.86313 0.485719Z" fill="#23262F" />
+              </svg>
+            </button>
+            <button class="arrow-btn arrow-btn--forward">
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86313 0.485719C8.17451 0.198285 8.65995 0.2177 8.94738 0.529082L11.4263 3.21458C11.6977 3.5085 11.6977 3.96154 11.4263 4.25547L8.94739 6.94103C8.65996 7.25241 8.17452 7.27183 7.86314 6.9844C7.55175 6.69697 7.53233 6.21154 7.81976 5.90015L9.11005 4.50232L1.65499 4.50232C1.23122 4.50232 0.887695 4.15879 0.887695 3.73503C0.887695 3.31126 1.23122 2.96773 1.65499 2.96773L9.11002 2.96773L7.81977 1.56997C7.53233 1.25859 7.55175 0.773152 7.86313 0.485719Z" fill="#23262F" />
+              </svg>
+            </button>
+          </div>
+        </section>
+        </div>
+        <section class="nft">
+          <h2 class="nft__title heading--grey">Weekly - Top NFT</h2>
+          <ul class="nft__list">
+            <li class="nft__item list__item">
+              <img src="./images/nft/TopNft1.png" alt="top nft" />
+              <span class="nft__hours list__hours">19H 09m 12s</span>
+              <h3 class="nft__name list__name">Sun-Glass</h3>
+              <div class="nft__info list__info">
+                <dl class="nft__tb">
+                  <dt class="nft__bid list__bid">Current bid</dt>
+                  <dd class="nft__bid--current list____bid--current">1.25</dd>
+                </dl>
+                <button class="btn--black btn nft__btn">PLACE BID</button>
+              </div>
+            </li>
+            <li class="nft__item list__item">
+                <img src="./images/nft/TopNft2.png" alt="top nft" />
+                <span class="nft__hours list__hours">07H 09m 12s</span>
+                <h3 class="nft__name list__name">Sun-Glass</h3>
+                <div class="nft__info list__info">
+                  <dl class="nft__tb">
+                    <dt class="nft__bid list__bid">Current bid</dt>
+                    <dd class="nft__bid--current list____bid--current">1.75</dd>
+                  </dl>
+                  <button class="btn--black btn nft__btn">PLACE BID</button>
+                </div>
+              </li>
+              <li class="nft__item list__item">
+                <img src="./images/nft/TopNft3.png" alt="top nft" />
+                <span class="nft__hours list__hours">19H 09m 12s</span>
+                <h3 class="nft__name list__name">NuEvey</h3>
+                <div class="nft__info list__info">
+                  <dl class="nft__tb">
+                    <dt class="nft__bid list__bid">Current bid</dt>
+                    <dd class="nft__bid--current list____bid--current">1.25 </dd>
+                  </dl>
+                  <button class="btn--black btn nft__btn">PLACE BID</button>
+                </div>
+              </li>
+              <li class="nft__item list__item">
+                <img src="./images/nft/TopNft4.png" alt="top nft" />
+                <span class="nft__hours list__hours">19H 09m 12s</span>
+                <h3 class="nft__name list__name">NuEvey</h3>
+                <div class="nft__info list__info">
+                  <dl class="nft__tb">
+                    <dt class="nft__bid list__bid">Current bid</dt>
+                    <dd class="nft__bid--current list____bid--current">1.25 </dd>
+                  </dl>
+                  <button class="btn--black btn nft__btn">PLACE BID</button>
+                </div>
+              </li>
+              <li class="nft__item list__item">
+                <img src="./images/nft/TopNft5.png" alt="top nft" />
+                <span class="nft__hours list__hours">19H 09m 12s</span>
+                <h3 class="nft__name list__name">NuEvey</h3>
+                <div class="nft__info list__info">
+                  <dl class="nft__tb">
+                    <dt class="nft__bid list__bid">Current bid</dt>
+                    <dd class="nft__bid--current list____bid--current">1.25 </dd>
+                  </dl>
+                  <button class="btn--black btn nft__btn">PLACE BID</button>
+                </div>
+              </li>
+          </ul>
+          <div  class="arrow-btn nft__btn-wrap">
+            <button class="arrow-btn arrow-btn--back">
+              <svg class="arrow-btn--no-active" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86313 0.485719C8.17451 0.198285 8.65995 0.2177 8.94738 0.529082L11.4263 3.21458C11.6977 3.5085 11.6977 3.96154 11.4263 4.25547L8.94739 6.94103C8.65996 7.25241 8.17452 7.27183 7.86314 6.9844C7.55175 6.69697 7.53233 6.21154 7.81976 5.90015L9.11005 4.50232L1.65499 4.50232C1.23122 4.50232 0.887695 4.15879 0.887695 3.73503C0.887695 3.31126 1.23122 2.96773 1.65499 2.96773L9.11002 2.96773L7.81977 1.56997C7.53233 1.25859 7.55175 0.773152 7.86313 0.485719Z" fill="#23262F" />
+              </svg>
+            </button>
+            <button class="arrow-btn arrow-btn--forward">
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86313 0.485719C8.17451 0.198285 8.65995 0.2177 8.94738 0.529082L11.4263 3.21458C11.6977 3.5085 11.6977 3.96154 11.4263 4.25547L8.94739 6.94103C8.65996 7.25241 8.17452 7.27183 7.86314 6.9844C7.55175 6.69697 7.53233 6.21154 7.81976 5.90015L9.11005 4.50232L1.65499 4.50232C1.23122 4.50232 0.887695 4.15879 0.887695 3.73503C0.887695 3.31126 1.23122 2.96773 1.65499 2.96773L9.11002 2.96773L7.81977 1.56997C7.53233 1.25859 7.55175 0.773152 7.86313 0.485719Z" fill="#23262F" />
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="collection">
+          <h2 class="heading--medium collection__title">Top Collection</h2>
+          <!-- <ul class="collection__list">
+            <li class="collection__item">
+              <div class="author">
+                <img class="author__img" src="./images/collection/user.png" alt="">
+                <h3 class="author__nick">Alex Ca.</h3>
+                <p class="author__name">Alexy</p>
+              </div>
+              <div class="volume">
+                <p class="volume__sum">8,456</p>
+                <span class="volume__raise">+23,00%</span>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="author">
+                <img class="author__img" src="./images/collection/user2.png" alt="">
+                <h3 class="author__nick">Juliya S.</h3>
+                <p class="author__name">JuliyaS</p>
+              </div>
+              <div class="volume">
+                <p class="volume__sum">5,327</p>
+                <span class="volume__fall">-32,01%</span>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="author">
+                <img class="author__img" src="./images/collection/user.png" alt="">
+                <h3 class="author__nick">Alex Ca.</h3>
+                <p class="author__name">Alexy</p>
+              </div>
+              <div class="volume">
+                <p class="volume__sum">8,456</p>
+                <span class="volume__raise">+23,00%</span>
+              </div>
+            </li>
+            <li class="collection__item">
+              <div class="author">
+                <img class="author__img" src="./images/collection/user2.png" alt="">
+                <h3 class="author__nick">Juliya S.</h3>
+                <p class="author__name">JuliyaS</p>
+              </div>
+              <div class="volume">
+                <p class="volume__sum">5,327</p>
+                <span class="volume__fall">-32,01%</span>
+              </div>
+            </li> 
+          </ul> -->
+          <table class="table collection__table">
+            <thead class="table__column collection__column">
+              <tr class="table__column">
+                <th class="table__column--big">Collection</th>
+                <th>Volume</th>
+                <th>24h %</th>
+                <th>Floor Price</th>
+                <th>Owners</th>
+                <th>Items</th>
+              </tr>
+            </thead>
+            <tbody class="table__body">
+              <tr class="table__body-item">
+                <td class="table__author">Alex Ca. <span class="table__author-nick">By Alex</span></td>
+                <td class="table__params">4,780</td>
+                <td class="table__hours">+ 27.78%</td>
+                <td class="table__params">7,9</td>
+                <td class="table__params-small">3.4k</td>
+                <td class="table__params-small">500</td>
+              </tr>
+              <tr class="table__body-item">
+                <td class="table__author">Alex Ca. <span class="table__author-nick">By Alex</span></td>
+                <td class="table__params">4,780</td>
+                <td class="table__hours">+ 27.78%</td>
+                <td class="table__params">7,9</td>
+                <td class="table__params-small">3.4k</td>
+                <td class="table__params-small">500</td>
+              </tr>
+              <tr class="table__body-item">
+                <td class="table__author">Alex Ca. <span class="table__author-nick">By Alex</span></td>
+                <td class="table__params">4,780</td>
+                <td class="table__hours">+ 27.78%</td>
+                <td class="table__params">7,9</td>
+                <td class="table__params-small">3.4k</td>
+                <td class="table__params-small">500</td>
+              </tr>
+              <tr class="table__body-item">
+                <td class="table__author">Alex Ca. <span class="table__author-nick">By Alex</span></td>
+                <td class="table__params">4,780</td>
+                <td class="table__hours">+ 27.78%</td>
+                <td class="table__params">7,9</td>
+                <td class="table__params-small">3.4k</td>
+                <td class="table__params-small">500</td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="collection__btn">Explore All</button>
+        </section>
+        <section class="marketplace">
+          <h2 class="heading--medium marketplace__title">Explore <br/> Marketplace</h2>
+          <ul class="sort">
+            <li class="sort__item">
+              <a class="sort__link sort-category" href="#">
+                <img src="./images/marketplace/category.svg" alt="category">
+                Category
+              </a>
+            </li>
+            <li class="sort__item">
+              <a class="sort__link sort-collection" href="#">
+                <img src="./images/marketplace/collection.svg" alt="collection">
+                Collection
+              </a>
+            </li>
+            <li class="sort__item">
+              <a class="sort__link sort-price" href="#">
+                <img src="./images/marketplace/price.svg" alt="price">
+                Price
+              </a>
+            </li>
+          </ul>
+          <ul class="list marketplace__list">
+            <li class="list__item marketplace__item">
+              <img src="./images/marketplace/marketplace1.jpg" alt="top nft" />
+              <span class="list__hours marketplace__hours">19H 09m 12s</span>
+              <h3 class="list__name">NuEvey</h3>
+              <div class="list__info">
+                <dl class="list__tb">
+                  <dt class="list__bid">Current bid</dt>
+                  <dd class="list__bid--current">1.25</dd>
+                </dl>
+                <button class="btn--black btn marketplace__btn">PLACE BID</button>
+              </div>
+            </li>
+            <li class="list__item marketplace__item">
+              <img src="./images/marketplace/marketplace2.jpg" alt="top nft" />
+              <span class="list__hours marketplace__hours">07H 09m 12s</span>
+              <h3 class="list__name">NuEvey</h3>
+              <div class="list__info">
+                <dl class="list__tb">
+                  <dt class="list__bid">Current bid</dt>
+                  <dd class="list__bid--current">1.75</dd>
+                </dl>
+                <button class="btn--black btn marketplace__btn">PLACE BID</button>
+              </div>
+            </li>
+            <li class="list__item marketplace__item">
+              <img src="./images/marketplace/marketplace3.jpg" alt="top nft" />
+              <span class="list__hours marketplace__hours">07H 09m 12s</span>
+              <h3 class="list__name">Sun-Glass</h3>
+              <div class="list__info">
+                <dl class="list__tb">
+                  <dt class="list__bid">Current bid</dt>
+                  <dd class="list__bid--current">1.75</dd>
+                </dl>
+                <button class="btn--black btn marketplace__btn">PLACE BID</button>
+              </div>
+            </li>
+            <li class="list__item marketplace__item">
+              <img src="./images/marketplace/marketplace4.jpg" alt="top nft" />
+              <span class="list__hours marketplace__hours">19H 09m 12s</span>
+              <h3 class="list__name">NuEvey</h3>
+              <div class="list__info">
+                <dl class="list__tb">
+                  <dt class="list__bid">Current bid</dt>
+                  <dd class="list__bid--current">1.25</dd>
+                </dl>
+                <button class="btn--black btn marketplace__btn">PLACE BID</button>
+              </div>
+            </li>
+          </ul>
+          <button class="collection__btn">Explore All</button>
+        </section>
+        <section class="collector">
+          <h2 class="collector__title heading--grey">Just Unleash - <br/> 
+            <b class="heading--medium"> Your Inner Collector </b>
+          </h2>
+          <div class="viewed collector__block">
+            <div class="viewed__wrap">
+              <h3 class="heading--small">Recent Viewed</h3>
+              <button class="viewed__btn"><img src="./images/innerCol/dott.svg" alt=""></button>
+            </div>
+            <ul class="social__list viewed__list">
+              <li class="social__item">
+                <div class="social__author viewed__author">
+                  <img class="social__img viewed__img" src="./images/collection/user.png" alt="">
+                  <h3 class="social__nick viewed__nick">Alex Ca.</h3>
+                  <p class="social__name viewed__name">Alexy</p>
+                </div>
+                <div class="social__volume">
+                  <p class="social__sum viewed__sum">8,456</p>
+                  <span class="social__raise viewed__raise">+23,00%</span>
+                </div>
+              </li>
+              <li class="social__item">
+                <div class="social__author viewed__author">
+                  <img class="social__img viewed__img" src="./images/collection/user2.png" alt="">
+                  <h3 class="social__nick viewed__nick">Juliya S.</h3>
+                  <p class="social__name viewed__name">JuliyaS</p>
+                </div>
+                <div class="social__volume">
+                  <p class="social__sum viewed__sum">5,327</p>
+                  <span class="social__fall viewed__raise">-32,01%</span>
+                </div>
+              </li>
+              </ul>
+          </div>
+          <div class="sellers collector__block">
+            <h3 class="heading--small sellers__title">Best Sellers</h3>
+            <ul class="social__list sellers__list">
+              <li class="social__item">
+                <div class="social__author sellers__author">
+                  <img class="social__img sellers__img" src="./images/innerCol/seller1.png" alt="">
+                  <h3 class="social__nick sellers__nick">Alex Ca.</h3>
+                  <p class="social__name sellers__name">@Alexy</p>
+                </div>
+                <button class="sellers__btn">Follow</button>
+              </li>
+              <li class="social__item">
+                <div class="social__author sellers__author">
+                  <img class="social__img sellers__img" src="./images/innerCol/seller2.png" alt="">
+                  <h3 class="social__nick sellers__nick">Juliya Sa.</h3>
+                  <p class="social__name sellers__name">@JuliyaS</p>
+                </div>
+                <button class="sellers__btn">Follow</button>
+              </li>
+              <li class="social__item">
+                <div class="social__author sellers__author">
+                  <img class="social__img sellers__img" src="./images/innerCol/seller3.png" alt="">
+                  <h3 class="social__nick sellers__nick">Juliya Sa.</h3>
+                  <p class="social__name sellers__name">@JuliyaS</p>
+                </div>
+                <button class="sellers__btn">Follow</button>
+              </li>
+              <li class="social__item">
+                <div class="social__author sellers__author">
+                  <img class="social__img sellers__img" src="./images/innerCol/seller4.png" alt="">
+                  <h3 class="social__nick sellers__nick">Trevor Pu.</h3>
+                  <p class="social__name sellers__name">@TrevorP</p>
+                </div>
+                <button class="sellers__btn sellers__btn--unfollow">Unfollow</button>
+              </li>
+            </ul>
+          </div>
+          <div class="bid collector__block">
+            <img class="bid__avatar" src="./images/innerCol/bid.png" alt="">
+            <div class="bid__wrapper">
+              <h4 class="bid__header">New bid <b class="bid__header--bold">Rotation <br/> 0.002 ETH</b></h4>
+              <p class="bid__data">6 Oct 2022, 11:44 PM</p>
+            </div>
+            <img class="bid__picture" src="./images/innerCol/bid.png" alt="New bid">
+          </div>
+          <button class="explore-btn">Explore more</button>
+        </section>
+        <section class="nft-place">
+          <div class="nft-place__wrap">
+            <h2 class="nft-place__title">Create and Sell NFTs</h2>
+            <p class="nft-place__info">World’s Largest NFT Place</p>
+            <div class="nft-place__btn-block">
+              <button class="nft-place__btn nft-place__btn--explore">Explore More</button>
+              <button class="nft-place__btn nft-place__btn--sell">Sell Artwork</button>
+            </div>
+          </div>
+          <img class="nft-place__img" src="./images/Rectangle 3.png" alt="">
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__wrap">
+          <img src="./images/footer/logoFooter.png" alt="logo">
+          <ul class="footer__social">
+            <li><a href=""><img src="./images/footer/inst.png" alt="instagram"></a></li>
+            <li><a href=""><img src="./images/footer/in.png" alt="in"></a></li>
+            <li><a href=""><img src="./images/footer/facebook.png" alt="facebook"></a></li>
+            <li><a href=""><img src="./images/footer/twitter.png" alt="twitter"></a></li>
+        </ul>
+        </div>
+        <ul class="footer__list">
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">term & Conditions</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </footer>
+  </body>
+</html>

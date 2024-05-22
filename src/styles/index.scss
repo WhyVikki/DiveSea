@@ -1,0 +1,35 @@
+// base
+@import "./base/colors.scss";
+@import "./base/breakpoints.scss";
+@import "./base/fonts.scss";
+@import "./base/base.scss";
+@import "./base/reset.scss";
+
+// @import "utils";
+// @import "mixins";
+
+// elements
+@import "../elements/button/arrow-btn.scss";
+@import "../elements/button/button.scss";
+@import "../elements/button/explore-btn.scss";
+@import "../elements/list/list.scss";
+
+// @import "../elements/input/input";
+// @import "../elements/input-number/input-number";
+
+// // blocks
+@import "../blocks/header/header";
+@import "../sections/intro.scss";
+@import "../blocks/social/social.scss";
+@import "../blocks/footer/footer.scss";
+@import "../blocks/nav/nav";
+// @import "../blocks/footer/footer";
+
+// // sections
+@import "../sections/slider.scss";
+@import "../sections/nft.scss";
+@import "../sections/collection.scss";
+@import "../sections/marketplace.scss";
+@import "../sections/collector.scss";
+@import "../sections/nft-place.scss";
+// // pages

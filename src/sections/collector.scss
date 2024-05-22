@@ -1,0 +1,163 @@
+.collector {
+    margin-top: 164px;
+    position: relative;
+    background: url("../images/innerCol/Dots.svg") right 70% no-repeat, $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 121px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__block {
+        box-shadow: 4px 4px 21px 0 rgba(20, 20, 22, 0.1);
+        border-radius: 7px;
+    }
+}
+
+.viewed {
+    width: 153px;
+    height: 103px;
+    padding: 11px 10px 8px 10px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    background: $blanch;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        grid-row-gap: 9px;
+    }
+
+    &__img {
+        width: 19px;
+        height: 19px;
+    }
+
+    &__nick,
+    &__sum {
+        font-size: 6px;
+    }
+
+    &__name,
+    &__raise {
+        font-size: 5px;
+    }
+
+    &__author {
+        grid-template-columns: 23px 30px;
+        grid-template-rows: repeat(2, 12px);
+        column-gap: 8px;
+    }
+}
+
+.sellers {
+    padding: 12px 9px 12px 8px;
+    width: 153px;
+    height: 243px;
+    background: $blanch;
+
+    &__list {
+        grid-row-gap: 10px;
+    }
+
+    &__author {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        grid-template-rows: 10px 8px;
+    }
+
+    &__img {
+        width: 23px;
+        height: 23px;
+    }
+
+    &__nick {
+        font-size: 5px;
+        color: #23262f;
+    }
+
+    &__name {
+        font-size: 4px;
+        color: #777e90;
+    }
+
+    &__title {
+        margin-bottom: 11px;
+    }
+
+    &__btn {
+        border: 0.83px solid #e6e8ec;
+        border-radius: 3px;
+        font-weight: 700;
+        font-size: 5px;
+        height: 13px;
+        width: 31px;
+
+        &--unfollow {
+            background: #e6e8ec;
+            width: 38px;
+        }
+    }
+}
+
+.bid {
+    position: absolute;
+    top: 130px;
+    left: 54%;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5.45px;
+    background: $blanch;
+
+    &__avatar {
+        border-radius: 16px;
+        width: 19px;
+        height: 19px;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url("../images/innerCol/dott.svg") no-repeat;
+        }
+    }
+
+    &__wrapper {
+        color: #949494;
+        margin-right: 19px;
+    }
+
+    &__header {
+        font-weight: 500;
+        font-size: 6px;
+
+        &--bold {
+            color: $black;
+        }
+    }
+
+    &__data {
+        font-size: 5px;
+        font-weight: 400;
+    }
+
+    &__picture {
+        width: 29px;
+        height: 29px;
+    }
+}

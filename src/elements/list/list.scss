@@ -1,0 +1,35 @@
+.list {
+
+  &__item {
+    position: relative;
+    box-shadow: 39px 12px 59px 0 rgba(199, 199, 199, 0.6);
+  }
+
+  &__hours {
+    color: $blanch;
+    position: absolute;
+    background: rgba(28, 29, 32, 0.35);
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid rgba(28, 29, 32, 0.08);
+  }
+
+  &__name {
+    font-weight: 600;
+    color: $black;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__bid {
+    color: $small;
+  }
+
+  &__bid--current {
+    color: $black;
+  }
+
+}

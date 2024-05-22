@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
+$font-main:'Poppins',sans-serif;
+$font-minor: 'Inter',sans-serif;
+
+.heading {
+    font-size: 15.41px;
+    color: $dark-grey;
+
+    @media(min-width: $tablet-width) {
+        font-size: 19.92px;
+    }
+
+    @media(min-width: $desktop-width) {
+        font-size: 28.01px;
+    }
+
+    &--large {
+        font-size: 47px;
+        font-weight: bold;
+        letter-spacing: -1.9px;
+        line-height: 1;
+
+        @media(min-width: $tablet-width) {
+            font-size: 53px;
+        }
+
+        @media(min-width: $desktop-width) {
+            font-size: 75px;
+        }
+    }
+
+    &--medium {
+        font-size: 30px;
+        font-weight: 600;
+        color: $black;
+
+        @media(min-width: $tablet-width) {
+            font-size: 32px;
+        }
+
+        @media(min-width: $desktop-width) {
+            font-size: 45px;
+        }
+    }
+
+    &--average {
+        font-weight: 600;
+        font-size: 26px;
+        color: $black;
+
+        @media(min-width: $desktop-width) {
+            font-size: 36px;
+        }
+    }
+
+    &__little {
+        font-weight: 500;
+        font-size: 8px;
+        color: #848586;
+
+        
+        @media(min-width: $desktop-width) {
+            font-size: 12px;
+        }
+    }
+
+    &--small {
+        font-weight: 600;
+        font-size: 8px;
+        color: #1a202c;
+
+    }
+
+    &--grey {
+        font-weight: 600;
+        font-size: 30px;
+        color: $light-grey;
+
+        @media(min-width: $tablet-width) {
+            font-size: 32px;
+        }
+
+        @media(min-width: $desktop-width) {
+            font-size: 45px;
+        }
+    }
+}

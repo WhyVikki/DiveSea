@@ -1,0 +1,24 @@
+.btn {
+    min-width: 85px;
+    min-height: 36px;
+    text-transform: uppercase;
+    border-radius: 9px;
+    text-align: center;
+
+    &--black {
+        background-color: $black;
+        color: $blanch;
+    }
+    &--white {
+        border: 1px solid $black;
+        background-color: $blanch;
+        color: $black;
+    }
+
+    @media(min-width: $tablet-width) {
+        border-radius: 9px;
+    }
+    @media(min-width: $desktop-width) {
+        border-radius: 12px;
+    }
+}

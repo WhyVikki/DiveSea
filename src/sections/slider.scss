@@ -1,0 +1,33 @@
+.slider {
+    height: 330px;
+    background: url("../images/slider/Arrow.png") 80% 25% no-repeat, url("../images/slider/dotts.png") 100% 0 no-repeat;
+    position: relative;
+    margin-bottom: 78px;
+
+    &__buttons {
+       
+    }
+
+    &__img--after {
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
+    &__img--before {
+        position: absolute;
+        top: 53%;
+        left: 69%;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 70%;
+        left: -200px;
+    }
+
+    @media(min-width: $tablet-width) {
+        
+    }
+
+    @media(min-width: $desktop-width) {}
+}
